@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* Adding background colour to header and footer */
+Header, footer{
+    background-color: plum;
+}
+
+ /* Selecting class name to style HTML element(s) */
+ .site-title{
+     color: grey;
+     text-decoration: none;
+ }
+
+ /* Image Id selector to make shadow on image */
+ /* COME BACK TO THIS */
+ #my-image{
+     box-shadow: 0px 0px 2px 1px black;
+ }
+
+ /* Changing hobbies bullet points */
+ section ul li{
+     list-style: square;
+ }
+
+ /* using nth child for background */
+ section ul li:nth-child(2n+1){
+     background: lightblue
+ }
+
+ /* Removing bullet point from nav */
+ nav ul li{
+     list-style: none;
+ }
+
+ /* Removing underlines from links and adding borders with backgrounds */
+ nav ul a{
+     border: 1px solid black;
+ }
+nav ul a{
+    text-decoration: none;
+}
+
+nav ul a,
+nav ul a:link,
+nav ul a:visited{
+ background: lightblue;
+}
+
+/* Changing colour for hover and focus */
+nav ul a:hover, 
+nav ul a:focus{
+    background-color: plum;
+}
