@@ -3,13 +3,24 @@ body{
     background-color: #aad4cf;
 }
 
+/* Centering the content */
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
 /* Navigation */
 /* borders, change bottom to right */
-nav ul{
+nav ul li{
     list-style: none;
-    border: 2px solid black;
+    border-right: 2px solid black;
+    display: inline-block;
+    width: 30%;
+    padding: 0.5em;
+    box-sizing: border-box;
+    font-size: 24px;
 }
-nav ul:last-child{
+nav ul li:last-child{
     border: none;
 }
 
@@ -24,6 +35,10 @@ nav ul a:active{
      text-decoration: none;
  }
 
+ nav ul a:visited{
+     text-decoration: black;
+ }
+
  /* Facts Area */
  article h3{
      text-transform: capitalize;
@@ -33,8 +48,67 @@ nav ul a:active{
  /* Adding border */
  section form{
      border: 2px solid black;
+     padding: 10px;
  }
 
  /* section form input{ 
      width: 90%;
  } */
+
+ /* Image and Paragraph */
+ img{
+     width: 25%
+ }
+ 
+ article section img{
+     float: left;
+     padding: 0.5em 1em;
+ }
+
+ /* title banner */
+header h1{
+    position: relative;
+    background: aqua url(../images/lone-starfish-wide.jpg) no-repeat center center;
+    background-size: cover;
+    color: white;
+    font-size: 2.5rem;
+    padding: 5em 1em 1em 1em;
+    width: 100%;
+    text-align: center;
+}
+
+/* background */
+main,
+nav,
+footer{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Back to top  */
+section div a{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    font-size: 16px;
+    text-decoration: black, underline;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Titles */
+article h2{
+    font-size: 28px;
+    padding: 0.5em 0.25em;
+}
+
+h3{
+    font-size: 24px;
+}
+
+/* Contact section spacing */
+form div label{
+    padding: 20px;
+    width: 100%;
+}
+
+
