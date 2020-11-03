@@ -10,7 +10,7 @@ body{
 }
 
 /* Navigation */
-/* borders, change bottom to right */
+/* borders, right */
 nav ul li{
     list-style: none;
     border-right: 2px solid black;
@@ -51,9 +51,7 @@ nav ul a:active{
      padding: 10px;
  }
 
- /* section form input{ 
-     width: 90%;
- } */
+
 
  /* Image and Paragraph */
  img{
