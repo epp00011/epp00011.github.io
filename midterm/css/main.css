@@ -89,7 +89,8 @@ section div a{
     right: 0;
     z-index: 999;
     font-size: 16px;
-    text-decoration: black, underline;
+    text-decoration: black;
+    text-decoration: underline;
     background-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -108,5 +109,3 @@ form div label{
     padding: 20px;
     width: 100%;
 }
-
-
