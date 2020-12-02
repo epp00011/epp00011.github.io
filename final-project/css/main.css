@@ -175,7 +175,7 @@ button{
 .btn{
     text-decoration: none;
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid rgb(78, 78, 78);
     border-radius: 0px;
 }
@@ -278,7 +278,6 @@ button{
 .john img{
     width: 100%;
 }
-
 .john h4{
     border-bottom: 2px solid #c78c06;
 }
@@ -291,7 +290,41 @@ button{
 .bob img{
     width: 100%;
 }
-
 .bob h4{
     border-bottom: 2px solid #c78c06;
 }
+
+/* Contact Section */
+/* Contact */
+.message textarea{
+    width: 100%;
+}
+
+.message input{
+    width: 100%;
+}
+
+.message label{
+    border: 5px;
+}
+
+.message .send .btn{
+    margin: 5px;
+}
+
+/* hours of operation */
+table {
+    border: 1px solid black;
+    width: 100%;
+}
+table th{
+    background-color: #ffe6ac;
+    border: 1px solid black;
+    padding: 5px;
+}
+table td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* footer */
