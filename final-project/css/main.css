@@ -94,7 +94,9 @@ p  {
 /* Navigation */
 .nav-list{
     color: rgba(#222);
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
 }
 
 .nav-list a,
@@ -194,3 +196,13 @@ button{
 }
 
 /* About Section */
+ .about-us {
+    background-color: #ffe6ac;
+}
+
+.about-us img{
+    width: 100%;
+    margin: 1em;
+}
+
+/* Our serives section */
