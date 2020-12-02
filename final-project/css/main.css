@@ -54,6 +54,7 @@ Custom Styles
 html{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    box-sizing: border-box;
 }
 
 h1, 
@@ -62,6 +63,8 @@ h3,
 h4,
 h5 {
     font-weight: bold;
+    /* top left-right bottom */
+    margin: 1em 0 0.5em;
 }
 
 /* Modular Scale */
@@ -206,3 +209,51 @@ button{
 }
 
 /* Our serives section */
+.our-services{
+    display: grid;
+}
+
+.digital-transformation{
+    background-color: #ffe6ac;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.digital-transformation img{
+    width: 100%;
+}
+
+.marketing{
+    background-color: #ffe6ac;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.marketing img{
+    width: 100%;
+}
+
+.video-production{
+    background-color: #ffe6ac;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.video-production img{
+    width: 100%;
+}
+
+.web-development{
+    background-color: #ffe6ac;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.web-development img{
+    width: 100%;
+}
+
+.print{
+    background-color: #ffe6ac;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.print img{
+    width: 100%;
+}
