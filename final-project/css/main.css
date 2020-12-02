@@ -138,19 +138,59 @@ button{
 }
 
 /* Banner */
-.banner h1, p{
+.banner h1 {
 color: white;
 }
 
-/* fix colour */
+.banner p{
+    color: white;
+}
+
 .banner{
-    background-color: rgba(0,0,0,0.6);
+    height: 600px;
+    background-image: url("/epp00011.github.io/final-project/images/main-banner.jpg");
+    background-size: cover;
+    padding-top: 10rem;
 }
 
-.banner img{
-    width: 100%;
+/* Banner text background change later */
+.banner h1{
+    background-color: rgba(0, 0, 0, 0.5);
+    }
+
+.banner p{
+    background-color: rgba(0, 0, 0, 0.5);
+    }
+
+.banner .btn{
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.banner a{
-    
+/* Button design */
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid rgb(78, 78, 78);
+    border-radius: 0px;
 }
+
+.banner .btn{
+    background-color: #c78c06;
+    color: #222;
+}
+
+.btn{
+    background-color: #222;
+    color: white;
+}
+
+.our-vision .btn{
+    border: 1px solid #c78c06;
+}
+
+.send .btn{
+    color: #c78c06
+}
+
+/* About Section */
