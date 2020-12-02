@@ -47,9 +47,9 @@ table {
 	border-spacing: 0;
 }
 
-/* -----------------
+/* ---------------------------------------------
 Custom Styles 
----------------------*/
+------------------------------------------------*/
 
 html{
     font-family: 'Open Sans', sans-serif;
@@ -139,32 +139,32 @@ button{
 
 /* Banner */
 .banner h1 {
-color: white;
-}
-
-.banner p{
     color: white;
-}
-
-.banner{
-    height: 600px;
-    background-image: url("/epp00011.github.io/final-project/images/main-banner.jpg");
-    background-size: cover;
-    padding-top: 10rem;
-}
-
-/* Banner text background change later */
-.banner h1{
-    background-color: rgba(0, 0, 0, 0.5);
     }
-
-.banner p{
-    background-color: rgba(0, 0, 0, 0.5);
+    
+    .banner p{
+        color: white;
     }
-
-.banner .btn{
-    background-color: rgba(0, 0, 0, 0.5);
-}
+    
+    .banner{
+        height: 600px;
+        background-image: url("/epp00011.github.io/final-project/images/main-banner.jpg");
+        background-size: cover;
+        padding-top: 10rem;
+    }
+    
+    /* Banner text background change later */
+    .banner h1{
+        background-color: rgba(0, 0, 0, 0.5);
+        }
+    
+    .banner p{
+        background-color: rgba(0, 0, 0, 0.5);
+        }
+    
+    .banner .btn{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 
 /* Button design */
 .btn{
