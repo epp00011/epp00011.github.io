@@ -211,6 +211,8 @@ button{
 /* Our serives section */
 .our-services{
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
 
 .digital-transformation{
@@ -256,4 +258,40 @@ button{
 }
 .print img{
     width: 100%;
+}
+/* take out bottom padding?^ */
+
+/* Our Vision */
+.our-vision{
+    background-image: url("/epp00011.github.io/final-project/images/vision.jpg");
+    background-size: cover;
+    color: white;
+    width: 100%;
+}
+
+/* Team */
+/* John portion */
+.john{
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+}
+.john img{
+    width: 100%;
+}
+
+.john h4{
+    border-bottom: 2px solid #c78c06;
+}
+
+/* Bob portion */
+.bob{
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+}
+.bob img{
+    width: 100%;
+}
+
+.bob h4{
+    border-bottom: 2px solid #c78c06;
 }
