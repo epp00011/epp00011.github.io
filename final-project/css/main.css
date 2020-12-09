@@ -81,6 +81,7 @@ h5 {
     font-weight: bold;
     /* top left-right bottom */
     margin: 1em 0.10em 0.5em;
+    padding-left: 15px;
 }
 
 /* Modular Scale */
@@ -414,6 +415,7 @@ Desktop Styles
         float: left;
         display: inline;
         width: 40%;
+        height: 70%;
         margin: 0.5em;
     }
 
@@ -479,28 +481,48 @@ Desktop Styles
 
     /* Our Team */
 
-    /* FIX LATER */
-    .our-team{
+    /* .our-team{
         display: grid;
         grid-template-columns:repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-template-areas: 
-        "one three"
-        "four two";
+        "one two"
+        "three four";
         padding-left: 1em;
     }
+     */
 
+     .john{
+        display: grid;
+        grid-template-columns:repeat(2, 2fr);
+        grid-template-rows: repeat(1, 2fr);
+     }
 
-    /* .our-team{
-        display: flex;
+     .bob{
+        display: grid;
+        grid-template-columns:repeat(2, 2fr);
+        grid-template-rows: repeat(1, 2fr); 
+        grid-template-areas: 
+        "text image";
+     }
 
-    } */
+     .bob .bob-image{
+         grid-area: image;
+     }
 
+     .bob .bob-text{
+         grid-area: text;
+     }
 
+     .john img{
+         width: 100%;
+         height: 100%;
+     }
 
-
-
-
+     .bob img{
+        width: 100%;
+        height: 100%;
+    }
 
     /* Contact Us section */
     .contact-us{
@@ -536,6 +558,10 @@ Desktop Styles
 
     .contact-us .h2{
         grid-area: title;
+        width: 100%;
+    }
+
+    .site-footer{
         width: 100%;
     }
 
