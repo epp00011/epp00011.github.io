@@ -27,16 +27,16 @@
                 </div>
             </li>
             <li><a href="index.html" class="current">Home</a> </li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#service">Service</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about" class="about">About Us</a></li>
+            <li><a href="#service" class="service">Service</a></li>
+            <li><a href="#team" class="team">Team</a></li>
+            <li><a href="#contact" class="contact">Contact</a></li>
             <!-- Add search bar -->
             <li>
             <div class="search">
                 <form action="search.php" method="get">
                     <label for="search"></label>
-                    <input type="text">
+                    <input type="text" id="search" name="search" placeholder="Search">
                     <button><i class="im im-magnifier"></i></button>
                 </form>
             </div>
@@ -62,7 +62,7 @@
     </div>
 
     <!-- About Us Section -->
-    <Section id="#about">
+    <Section id="about">
         <div class="about-us">
         <img src="/epp00011.github.io/final-project/images/about-us.jpg" alt="table tennis table in a lounge area">
         <h2>About Us</h2>
@@ -74,7 +74,7 @@
     </Section>
 
     <!-- Service section -->
-    <section id="#service">
+    <section id="service">
         <h2>Our Services</h2>
         <div class="our-services">
         <div class="digital-transformation"> 
@@ -129,7 +129,7 @@
     </section>
 
     <!-- Adding Team Section -->
-    <section class="#team">
+    <section id="team">
 
         <h2>Our Team</h2>
 
@@ -167,7 +167,7 @@
     </section>
 
     <!-- Adding Contact Section -->
-    <section class="#contact">
+    <section id="contact">
         <div class="contact-us">
         <h2>Contact Us</h2>
         <div class="message">

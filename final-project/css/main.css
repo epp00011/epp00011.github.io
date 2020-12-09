@@ -113,7 +113,7 @@ p  {
 
 /* Navigation */
 .nav-list{
-    color: rgba(#222);
+    color: rgb(#222);
     display: flex;
     flex-direction: column; 
 }
@@ -374,27 +374,21 @@ Desktop Styles
         html {
         font-size: 16px;
     }
-    /* .main-nav{
-        display: flex;
-        flex-direction: row;
-        flex-flow: row;
-        flex-wrap: wrap;
-        background: #222;
-    } */
 
     /* Navigation area */
     .nav-list{
-        color: rgba(#222);
+        color: rgb(#222);
         display: flex;
         flex-direction: row; 
         padding-bottom: 2rem;
-        padding-top: 5rem;
-        padding: 1rem;
+        /* padding-top: 5rem; */
+        padding: 1em;
         justify-content: center;
+        width: 100%;
     }
     
      nav ul li{
-        width: 5%;
+        width: 100%;
         /* flex-grow: 1; */
         text-align: center;
         justify-content: center;
@@ -403,12 +397,9 @@ Desktop Styles
     .star-logo{
         background: #222;
         padding-right: 2em;
+        justify-content: start;
     }
 
-/* fix search area!!!----------------------------------------------- */
-    .search-bar{
-
-    }
 
     /* about us section */
     .about-us img{
@@ -564,7 +555,5 @@ Desktop Styles
     .site-footer{
         width: 100%;
     }
-
-
 
 }
