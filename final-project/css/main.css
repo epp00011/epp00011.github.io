@@ -57,6 +57,22 @@ html{
     box-sizing: border-box;
 }
 
+body{
+    line-height: 1.5;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    line-height: inherit;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 h1, 
 h2,
 h3,
@@ -64,7 +80,7 @@ h4,
 h5 {
     font-weight: bold;
     /* top left-right bottom */
-    margin: 1em 0 0.5em;
+    margin: 1em 0.10em 0.5em;
 }
 
 /* Modular Scale */
@@ -85,7 +101,7 @@ h5 {
 }
 
 p  {
-    margin: 1em 0;
+    margin: 1em 0.25em;
 }
 
 .container{
@@ -98,8 +114,13 @@ p  {
 .nav-list{
     color: rgba(#222);
     display: flex;
-    flex-direction: column;
-    text-align: center;  
+    flex-direction: column; 
+}
+
+ nav ul li{
+    width: 100%;
+    flex-grow: 1;
+    text-align: center;
 }
 
 .nav-list a,
@@ -152,14 +173,14 @@ button{
     }
     
     .banner{
-        height: 600px;
+        height: 700px;
         background-image: url("/epp00011.github.io/final-project/images/main-banner.jpg");
         background-size: cover;
-        padding-top: 10rem;
+        padding-top: 2rem;
     }
     
     /* Banner text background change later */
-    .banner h1{
+    /* .banner h1{
         background-color: rgba(0, 0, 0, 0.5);
         }
     
@@ -169,6 +190,12 @@ button{
     
     .banner .btn{
         background-color: rgba(0, 0, 0, 0.5);
+    } */
+
+    .banner-text{
+    background-color: rgba(0, 0, 0, 0.5);  
+    padding-left: 5%;   
+    justify-content: center;
     }
 
 /* Button design */
@@ -178,6 +205,7 @@ button{
     padding: 10px;
     border: 1px solid rgb(78, 78, 78);
     border-radius: 0px;
+    justify-content: center;
 }
 
 .banner .btn{
@@ -340,3 +368,120 @@ table td{
 /* ---------------------------
 Desktop Styles
 --------------------------- */
+@media screen and (min-width: 760px){
+
+        html {
+        font-size: 16px;
+    }
+    /* .main-nav{
+        display: flex;
+        flex-direction: row;
+        flex-flow: row;
+        flex-wrap: wrap;
+        background: #222;
+    } */
+
+    /* Navigation area */
+    .nav-list{
+        color: rgba(#222);
+        display: flex;
+        flex-direction: row; 
+        padding-bottom: 2rem;
+        padding-top: 5rem;
+        padding: 1rem;
+        justify-content: center;
+    }
+    
+     nav ul li{
+        width: 5%;
+        /* flex-grow: 1; */
+        text-align: center;
+        justify-content: center;
+    }
+
+    .star-logo{
+        background: #222;
+        padding-right: 2em;
+    }
+
+/* fix search area!!!----------------------------------------------- */
+    .search-bar{
+
+    }
+
+    /* about us section */
+    .about-us img{
+        float: left;
+        display: inline;
+        width: 40%;
+        margin: 0.5em;
+    }
+
+    .about-us p, h2{
+        justify-content: center;
+    }
+
+    .about-us{
+        height: 350px;
+        justify-content: center;
+    }
+
+    /* Our service section */
+    .our-services{
+        justify-content: center;
+        display: grid;
+        grid-template-columns:repeat(6, 1fr);
+        grid-template-rows: repeat(3, auto);
+        column-gap: 1em;
+        row-gap: 1em;
+        grid-template-areas: 
+        "dt dt dt m m m"
+        "dt dt dt m m m"
+        "vp vp wd wd p p";
+        padding-left: 1em;
+    }
+
+    .our-services .digital-transformation{
+        grid-area: dt;
+    }
+
+    .our-services .marketing{
+        grid-area: m;
+    }
+
+    .our-services .video-production{
+        grid-area: vp;
+    }
+
+    .our-services .web-development{
+        grid-area: wd;
+    }
+
+    .our-services .print{
+        grid-area: p;
+    }
+
+    .our-services h3{
+        justify-content: center;
+        font-size: x-large;
+    }
+
+    .our-services .btn{
+        width: 60%;
+        justify-content: center;
+    }
+
+    /* Our vision */
+    .our-vision {
+        height: 275px;
+        justify-content: center;
+    }
+
+
+
+
+
+
+
+
+}
