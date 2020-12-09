@@ -474,12 +474,64 @@ Desktop Styles
     /* Our vision */
     .our-vision {
         height: 275px;
-        justify-content: center;
+        padding-left: 15px;
     }
 
+    /* Our Team */
 
+    /* FIX LATER */
+    .our-team{
+        display: grid;
+        grid-template-columns:repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        column-gap: 1em;
+        row-gap: 1em;
+        grid-template-areas: 
+        "ji jt"
+        "bt bi";
+        padding-left: 1em;
+    }
 
+    /* Contact Us section */
+    .contact-us{
+        display: grid;
+        grid-template-columns:repeat(2, auto);
+        grid-template-rows:repeat(2, 1fr);
+        column-gap: 1em;
+        row-gap: 1em;
+        grid-template-areas: 
+        "message area"
+        "hours hours";
+    }
 
+    .contact-us .message{
+        grid-area: message;
+    }
+
+    .location{
+        grid-area: area;
+    }
+
+    .hours{
+        grid-area: hours;
+    }
+/* ----------- */
+    .hours{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .message{
+        padding-left: 1em;
+    }
+
+    .location{
+        padding-left: 1em;
+    }
+
+    .location iframe{
+        height: 300px;
+    }
 
 
 
