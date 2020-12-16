@@ -179,19 +179,6 @@ button{
         background-size: cover;
         padding-top: 2rem;
     }
-    
-    /* Banner text background change later */
-    /* .banner h1{
-        background-color: rgba(0, 0, 0, 0.5);
-        }
-    
-    .banner p{
-        background-color: rgba(0, 0, 0, 0.5);
-        }
-    
-    .banner .btn{
-        background-color: rgba(0, 0, 0, 0.5);
-    } */
 
     .banner-text{
     background-color: rgba(0, 0, 0, 0.5);  
@@ -288,7 +275,6 @@ button{
 .print img{
     width: 100%;
 }
-/* take out bottom padding?^ */
 
 /* Our Vision */
 .our-vision{
@@ -341,7 +327,7 @@ button{
     margin: 5px;
 }
 
-/* hours of operation */
+/* Hours of Operation */
 table {
     border: 1px solid black;
     width: 100%;
@@ -356,7 +342,7 @@ table td{
     padding: 5px;
 }
 
-/* footer */
+/* Footer */
 .site-footer{
     background-color: #222;
     color: #c78c06
@@ -381,15 +367,13 @@ Desktop Styles
         display: flex;
         flex-direction: row; 
         padding-bottom: 2rem;
-        /* padding-top: 5rem; */
         padding: 1em;
         justify-content: center;
         width: 100%;
     }
     
-     nav ul li{
+    .nav ul li{
         width: 100%;
-        /* flex-grow: 1; */
         text-align: center;
         justify-content: center;
     }
@@ -400,8 +384,7 @@ Desktop Styles
         justify-content: start;
     }
 
-
-    /* about us section */
+    /* About us section */
     .about-us img{
         float: left;
         display: inline;
@@ -460,29 +443,17 @@ Desktop Styles
     }
 
     .our-services .btn{
-        width: 60%;
+        width: fit-content;
         justify-content: center;
     }
 
-    /* Our vision */
+    /* Our Vision */
     .our-vision {
         height: 275px;
         padding-left: 15px;
     }
 
     /* Our Team */
-
-    /* .our-team{
-        display: grid;
-        grid-template-columns:repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-areas: 
-        "one two"
-        "three four";
-        padding-left: 1em;
-    }
-     */
-
      .john{
         display: grid;
         grid-template-columns:repeat(2, 2fr);
@@ -515,7 +486,7 @@ Desktop Styles
         height: 100%;
     }
 
-    /* Contact Us section */
+    /* Contact Us Section */
     .contact-us{
         display: grid;
         grid-template-columns:repeat(2, auto);
@@ -552,6 +523,7 @@ Desktop Styles
         width: 100%;
     }
 
+    /* Footer */
     .site-footer{
         width: 100%;
     }
